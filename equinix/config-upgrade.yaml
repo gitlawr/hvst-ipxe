@@ -1,0 +1,5 @@
+install:
+  mode: upgrade
+  iso_url: http://18.163.129.6/upgrade-1.20.4.iso
+  tty: ttyS1,115200n8
+
