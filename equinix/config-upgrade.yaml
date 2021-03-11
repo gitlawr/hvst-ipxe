@@ -1,5 +1,13 @@
+token: token
+os:
+  hostname: node1
+  ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJ+K9i16p0ySAiZgAfj/sulVPjZVRjQsAsbOqRWgq0h2SHDB7R8F+KpB0OxTsMxeD46IJlBYbBXS8dzWCU2Ia9NaFVFRSQrTP8WLrwbY+6TwuDdTUfjSR8i6eCoUveKCrvjFjIk5tztdcSI86OG/MII4BtW2hUxSGawgp+AxIlCecp9CvhKXV9fts86kf61Be+4w/0sPk5v2zWZ1SgkGevAI5QXK+655V42qjnqiDa7DqXF1fo0KLpSVQhiHueQlMSmSADg2f+mTX8DIohFSMvGLx5P6hPUNRRkaOnrX1dAo0kbEEYm3utP3PpDWHejC3fIZi8cMreEg01O9lbrjNh
+  password: FiSDT39g0
 install:
   mode: upgrade
-  iso_url: http://18.163.129.6/upgrade-1.20.4.iso
+  mgmt_interface: eth0
+  device: /dev/sda
+  iso_url: http://18.163.8.167/upgrade-1.20.4.iso
   tty: ttyS1,115200n8
 
