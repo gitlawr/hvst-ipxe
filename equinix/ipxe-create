@@ -1,6 +1,6 @@
 #!ipxe
 
-kernel https://releases.rancher.com/harvester/v0.2.0-rc5/harvester-vmlinuz-amd64 k3os.mode=install k3os.debug console=ttyS1,115200 harvester.install.automatic=true harvester.install.config_url=https://raw.githubusercontent.com/gitlawr/hvst-ipxe/main/equinix/config-create.yaml
+kernel https://releases.rancher.com/harvester/v0.2.0-rc5/harvester-vmlinuz-amd64 k3os.mode=install k3os.debug console=ttyS1,115200 harvester.install.automatic=true harvester.install.config_url=https://raw.githubusercontent.com/gitlawr/hvst-ipxe/main/equinix/config-create.yaml boot_cmd="echo include_ping_test=yes >> /etc/conf.d/net-online"
 initrd https://releases.rancher.com/harvester/v0.2.0-rc5/harvester-initrd-amd64
 boot
 
